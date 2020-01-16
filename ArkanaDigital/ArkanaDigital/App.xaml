@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<prism:PrismApplication 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="clr-namespace:Prism.Unity;assembly=Prism.Unity.Forms"
+    x:Class="ArkanaDigital.App">
+    <Application.Resources>
+        <OnPlatform x:TypeArguments="x:String" x:Key="fa-solid-900">
+            <On Platform="iOS" Value="FontAwesome5Free-Solid" />
+            <On Platform="Android" Value="FontAwesomeSolid900.ttf#Font Awesome 5 Brands" />
+        </OnPlatform>
+    </Application.Resources>
+</prism:PrismApplication>
